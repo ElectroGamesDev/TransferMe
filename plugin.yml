@@ -14,4 +14,3 @@ permissions:
   transferme.cmd:
     description: Permission to transfer yourself or others
     default: op
-...
