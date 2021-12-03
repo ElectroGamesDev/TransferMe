@@ -1,7 +1,7 @@
 main : Electro\TransferMe\Main
 name: TransferMe
-version: 1.0.0
-api: 3.0.0
+version: 2.0.0
+api: 4.0.0
 Author: Electro
 
 commands:
@@ -9,7 +9,8 @@ commands:
     description: Transfer Yourself or Others to Another Server
     aliases: [transferme]
     permission: transferme.cmd
+
 permissions:
   transferme.cmd:
-    description: Permission to feed yourself or others
+    description: Permission to transfer yourself or others
     default: op
